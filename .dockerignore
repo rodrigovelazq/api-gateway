@@ -1,0 +1,42 @@
+# Ignore Maven & Gradle build directories
+target/
+build/
+
+# Ignore dependency caches
+.mvn/
+.gradle/
+**/node_modules/
+
+# Ignore IDE files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+logs/
+*.log
+*.swp
+*.swo
+*.bak
+
+# Ignore environment and configuration files
+.env
+application.properties
+application.yml
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore Docker artifacts
+Dockerfile
+docker-compose.yml
